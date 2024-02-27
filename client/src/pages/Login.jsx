@@ -17,7 +17,7 @@ const Login = () => {
             }}>
                 <Col xs={6}>
                     <Stack gap={3}>
-                        <h2>Login</h2>
+                        <h2>Login Chat</h2>
 
                         <Form.Control type="text" placeholder="Email" onChange={(e)=>{updateLoginInfo({...loginInfo, email: e.target.value})}}></Form.Control>
                         <Form.Control type="password" placeholder="Password" onChange={(e)=>{updateLoginInfo({...loginInfo, password: e.target.value})}}></Form.Control>
